@@ -11,8 +11,16 @@
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController">
                     <items>
                         <imageView width="100" height="100" alignment="center" image="default" contentMode="scaleAspectFit" id="fdJ-tf-eFb"/>
-                        <button width="1" alignment="left" title="猜猜猜" id="kls-tc-R7s"/>
+                        <button width="1" alignment="left" title="猜猜猜" id="kls-tc-R7s">
+                            <connections>
+                                <action selector="btnClick" destination="AgC-eL-Hgc" id="kAf-Du-8SI"/>
+                            </connections>
+                        </button>
                     </items>
+                    <connections>
+                        <outlet property="btn" destination="kls-tc-R7s" id="qge-cL-2p9"/>
+                        <outlet property="image" destination="fdJ-tf-eFb" id="MQd-u5-UxG"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="418" y="305"/>
