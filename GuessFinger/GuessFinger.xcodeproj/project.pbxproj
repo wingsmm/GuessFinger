@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AEA33341AD16EF300193B08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA33331AD16EF300193B08 /* main.m */; };
+		1AEA33371AD16EF300193B08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA33361AD16EF300193B08 /* AppDelegate.m */; };
+		1AEA333A1AD16EF300193B08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA33391AD16EF300193B08 /* ViewController.m */; };
+		1AEA333D1AD16EF300193B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA333B1AD16EF300193B08 /* Main.storyboard */; };
+		1AEA333F1AD16EF300193B08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA333E1AD16EF300193B08 /* Images.xcassets */; };
+		1AEA33421AD16EF300193B08 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA33401AD16EF300193B08 /* LaunchScreen.xib */; };
+		1AEA334E1AD16EF300193B08 /* GuessFingerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA334D1AD16EF300193B08 /* GuessFingerTests.m */; };
+		1AEA33611AD16F0500193B08 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA33601AD16F0500193B08 /* InterfaceController.m */; };
+		1AEA33631AD16F0500193B08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA33621AD16F0500193B08 /* Images.xcassets */; };
+		1AEA33671AD16F0500193B08 /* GuessFinger WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA33661AD16F0500193B08 /* GuessFinger WatchKit App.app */; };
+		1AEA336F1AD16F0500193B08 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA336D1AD16F0500193B08 /* Interface.storyboard */; };
+		1AEA33711AD16F0500193B08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA33701AD16F0500193B08 /* Images.xcassets */; };
+		1AEA33741AD16F0500193B08 /* GuessFinger WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AEA335B1AD16F0500193B08 /* GuessFinger WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AEA33481AD16EF300193B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEA33261AD16EF200193B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEA332D1AD16EF300193B08;
+			remoteInfo = GuessFinger;
+		};
+		1AEA33681AD16F0500193B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEA33261AD16EF200193B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEA33651AD16F0500193B08;
+			remoteInfo = "GuessFinger WatchKit App";
+		};
+		1AEA33721AD16F0500193B08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AEA33261AD16EF200193B08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AEA335A1AD16F0500193B08;
+			remoteInfo = "GuessFinger WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1AEA337B1AD16F0500193B08 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AEA33741AD16F0500193B08 /* GuessFinger WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1AEA332E1AD16EF300193B08 /* GuessFinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessFinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEA33321AD16EF300193B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEA33331AD16EF300193B08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AEA33351AD16EF300193B08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AEA33361AD16EF300193B08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AEA33381AD16EF300193B08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1AEA33391AD16EF300193B08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1AEA333C1AD16EF300193B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AEA333E1AD16EF300193B08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AEA33411AD16EF300193B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1AEA33471AD16EF300193B08 /* GuessFingerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessFingerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEA334C1AD16EF300193B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEA334D1AD16EF300193B08 /* GuessFingerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuessFingerTests.m; sourceTree = "<group>"; };
+		1AEA335B1AD16F0500193B08 /* GuessFinger WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GuessFinger WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEA335E1AD16F0500193B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEA335F1AD16F0500193B08 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		1AEA33601AD16F0500193B08 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		1AEA33621AD16F0500193B08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AEA33661AD16F0500193B08 /* GuessFinger WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GuessFinger WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEA336C1AD16F0500193B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AEA336E1AD16F0500193B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1AEA33701AD16F0500193B08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AEA332B1AD16EF300193B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEA33441AD16EF300193B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEA33581AD16F0500193B08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEA33251AD16EF200193B08 = {
+			isa = PBXGroup;
+			children = (
+				1AEA33301AD16EF300193B08 /* GuessFinger */,
+				1AEA334A1AD16EF300193B08 /* GuessFingerTests */,
+				1AEA335C1AD16F0500193B08 /* GuessFinger WatchKit Extension */,
+				1AEA336A1AD16F0500193B08 /* GuessFinger WatchKit App */,
+				1AEA332F1AD16EF300193B08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEA332F1AD16EF300193B08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA332E1AD16EF300193B08 /* GuessFinger.app */,
+				1AEA33471AD16EF300193B08 /* GuessFingerTests.xctest */,
+				1AEA335B1AD16F0500193B08 /* GuessFinger WatchKit Extension.appex */,
+				1AEA33661AD16F0500193B08 /* GuessFinger WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AEA33301AD16EF300193B08 /* GuessFinger */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA33351AD16EF300193B08 /* AppDelegate.h */,
+				1AEA33361AD16EF300193B08 /* AppDelegate.m */,
+				1AEA33381AD16EF300193B08 /* ViewController.h */,
+				1AEA33391AD16EF300193B08 /* ViewController.m */,
+				1AEA333B1AD16EF300193B08 /* Main.storyboard */,
+				1AEA333E1AD16EF300193B08 /* Images.xcassets */,
+				1AEA33401AD16EF300193B08 /* LaunchScreen.xib */,
+				1AEA33311AD16EF300193B08 /* Supporting Files */,
+			);
+			path = GuessFinger;
+			sourceTree = "<group>";
+		};
+		1AEA33311AD16EF300193B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA33321AD16EF300193B08 /* Info.plist */,
+				1AEA33331AD16EF300193B08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEA334A1AD16EF300193B08 /* GuessFingerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA334D1AD16EF300193B08 /* GuessFingerTests.m */,
+				1AEA334B1AD16EF300193B08 /* Supporting Files */,
+			);
+			path = GuessFingerTests;
+			sourceTree = "<group>";
+		};
+		1AEA334B1AD16EF300193B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA334C1AD16EF300193B08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEA335C1AD16F0500193B08 /* GuessFinger WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA335F1AD16F0500193B08 /* InterfaceController.h */,
+				1AEA33601AD16F0500193B08 /* InterfaceController.m */,
+				1AEA33621AD16F0500193B08 /* Images.xcassets */,
+				1AEA335D1AD16F0500193B08 /* Supporting Files */,
+			);
+			path = "GuessFinger WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		1AEA335D1AD16F0500193B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA335E1AD16F0500193B08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AEA336A1AD16F0500193B08 /* GuessFinger WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA336D1AD16F0500193B08 /* Interface.storyboard */,
+				1AEA33701AD16F0500193B08 /* Images.xcassets */,
+				1AEA336B1AD16F0500193B08 /* Supporting Files */,
+			);
+			path = "GuessFinger WatchKit App";
+			sourceTree = "<group>";
+		};
+		1AEA336B1AD16F0500193B08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA336C1AD16F0500193B08 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AEA332D1AD16EF300193B08 /* GuessFinger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEA33511AD16EF300193B08 /* Build configuration list for PBXNativeTarget "GuessFinger" */;
+			buildPhases = (
+				1AEA332A1AD16EF300193B08 /* Sources */,
+				1AEA332B1AD16EF300193B08 /* Frameworks */,
+				1AEA332C1AD16EF300193B08 /* Resources */,
+				1AEA337B1AD16F0500193B08 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEA33731AD16F0500193B08 /* PBXTargetDependency */,
+			);
+			name = GuessFinger;
+			productName = GuessFinger;
+			productReference = 1AEA332E1AD16EF300193B08 /* GuessFinger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AEA33461AD16EF300193B08 /* GuessFingerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEA33541AD16EF300193B08 /* Build configuration list for PBXNativeTarget "GuessFingerTests" */;
+			buildPhases = (
+				1AEA33431AD16EF300193B08 /* Sources */,
+				1AEA33441AD16EF300193B08 /* Frameworks */,
+				1AEA33451AD16EF300193B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEA33491AD16EF300193B08 /* PBXTargetDependency */,
+			);
+			name = GuessFingerTests;
+			productName = GuessFingerTests;
+			productReference = 1AEA33471AD16EF300193B08 /* GuessFingerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AEA335A1AD16F0500193B08 /* GuessFinger WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEA33781AD16F0500193B08 /* Build configuration list for PBXNativeTarget "GuessFinger WatchKit Extension" */;
+			buildPhases = (
+				1AEA33571AD16F0500193B08 /* Sources */,
+				1AEA33581AD16F0500193B08 /* Frameworks */,
+				1AEA33591AD16F0500193B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AEA33691AD16F0500193B08 /* PBXTargetDependency */,
+			);
+			name = "GuessFinger WatchKit Extension";
+			productName = "GuessFinger WatchKit Extension";
+			productReference = 1AEA335B1AD16F0500193B08 /* GuessFinger WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		1AEA33651AD16F0500193B08 /* GuessFinger WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AEA33751AD16F0500193B08 /* Build configuration list for PBXNativeTarget "GuessFinger WatchKit App" */;
+			buildPhases = (
+				1AEA33641AD16F0500193B08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GuessFinger WatchKit App";
+			productName = "GuessFinger WatchKit App";
+			productReference = 1AEA33661AD16F0500193B08 /* GuessFinger WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AEA33261AD16EF200193B08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = wingsmm;
+				TargetAttributes = {
+					1AEA332D1AD16EF300193B08 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1AEA33461AD16EF300193B08 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 1AEA332D1AD16EF300193B08;
+					};
+					1AEA335A1AD16F0500193B08 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					1AEA33651AD16F0500193B08 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 1AEA33291AD16EF200193B08 /* Build configuration list for PBXProject "GuessFinger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AEA33251AD16EF200193B08;
+			productRefGroup = 1AEA332F1AD16EF300193B08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AEA332D1AD16EF300193B08 /* GuessFinger */,
+				1AEA33461AD16EF300193B08 /* GuessFingerTests */,
+				1AEA335A1AD16F0500193B08 /* GuessFinger WatchKit Extension */,
+				1AEA33651AD16F0500193B08 /* GuessFinger WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AEA332C1AD16EF300193B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEA333D1AD16EF300193B08 /* Main.storyboard in Resources */,
+				1AEA33421AD16EF300193B08 /* LaunchScreen.xib in Resources */,
+				1AEA333F1AD16EF300193B08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEA33451AD16EF300193B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEA33591AD16F0500193B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEA33631AD16F0500193B08 /* Images.xcassets in Resources */,
+				1AEA33671AD16F0500193B08 /* GuessFinger WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEA33641AD16F0500193B08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEA336F1AD16F0500193B08 /* Interface.storyboard in Resources */,
+				1AEA33711AD16F0500193B08 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AEA332A1AD16EF300193B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEA333A1AD16EF300193B08 /* ViewController.m in Sources */,
+				1AEA33371AD16EF300193B08 /* AppDelegate.m in Sources */,
+				1AEA33341AD16EF300193B08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEA33431AD16EF300193B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEA334E1AD16EF300193B08 /* GuessFingerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AEA33571AD16F0500193B08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEA33611AD16F0500193B08 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AEA33491AD16EF300193B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEA332D1AD16EF300193B08 /* GuessFinger */;
+			targetProxy = 1AEA33481AD16EF300193B08 /* PBXContainerItemProxy */;
+		};
+		1AEA33691AD16F0500193B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEA33651AD16F0500193B08 /* GuessFinger WatchKit App */;
+			targetProxy = 1AEA33681AD16F0500193B08 /* PBXContainerItemProxy */;
+		};
+		1AEA33731AD16F0500193B08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AEA335A1AD16F0500193B08 /* GuessFinger WatchKit Extension */;
+			targetProxy = 1AEA33721AD16F0500193B08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AEA333B1AD16EF300193B08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEA333C1AD16EF300193B08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1AEA33401AD16EF300193B08 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEA33411AD16EF300193B08 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1AEA336D1AD16F0500193B08 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AEA336E1AD16F0500193B08 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AEA334F1AD16EF300193B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1AEA33501AD16EF300193B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AEA33521AD16EF300193B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessFinger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1AEA33531AD16EF300193B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuessFinger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1AEA33551AD16EF300193B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessFingerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessFinger.app/GuessFinger";
+			};
+			name = Debug;
+		};
+		1AEA33561AD16EF300193B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessFingerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessFinger.app/GuessFinger";
+			};
+			name = Release;
+		};
+		1AEA33761AD16F0500193B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = GuessFinger_WatchKit_Extension;
+				INFOPLIST_FILE = "GuessFinger WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		1AEA33771AD16F0500193B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = GuessFinger_WatchKit_Extension;
+				INFOPLIST_FILE = "GuessFinger WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		1AEA33791AD16F0500193B08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GuessFinger WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1AEA337A1AD16F0500193B08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "GuessFinger WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AEA33291AD16EF200193B08 /* Build configuration list for PBXProject "GuessFinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEA334F1AD16EF300193B08 /* Debug */,
+				1AEA33501AD16EF300193B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AEA33511AD16EF300193B08 /* Build configuration list for PBXNativeTarget "GuessFinger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEA33521AD16EF300193B08 /* Debug */,
+				1AEA33531AD16EF300193B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AEA33541AD16EF300193B08 /* Build configuration list for PBXNativeTarget "GuessFingerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEA33551AD16EF300193B08 /* Debug */,
+				1AEA33561AD16EF300193B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AEA33751AD16F0500193B08 /* Build configuration list for PBXNativeTarget "GuessFinger WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEA33761AD16F0500193B08 /* Debug */,
+				1AEA33771AD16F0500193B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AEA33781AD16F0500193B08 /* Build configuration list for PBXNativeTarget "GuessFinger WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AEA33791AD16F0500193B08 /* Debug */,
+				1AEA337A1AD16F0500193B08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AEA33261AD16EF200193B08 /* Project object */;
+}
